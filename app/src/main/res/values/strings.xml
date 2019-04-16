@@ -1,0 +1,59 @@
+<resources>
+    /*Page Main_activity */
+    <string name="app_name">Lat2_IF2_10116065</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="button">Login</string>
+    <string name="or">OR</string>
+    <string name="button_fb">Connect with facebook</string>
+    <string name="acc">dosen`t have account?</string>
+    <string name="register">Register</string>
+    <string name="todo">TODO</string>
+
+    /* Page login */
+
+    <string name="todo2">TODO</string>
+    <string name="header_login">TODO</string>
+    <string name="no_hp">Phone Number</string>
+    <string name="laki">Male</string>
+    <string name="cewe">Female</string>
+    <string name="blood">Blood Type</string>
+    <string name="Resus">Reshus</string>
+    <string name="repassword">Retype Password</string>
+    <string name="person">Personal</string>
+    <string name="organ">Organization</string>
+    <string name="job">Job</string>
+    <string name="home">Home Address</string>
+    <string name="lokasi">Default Location</string>
+    <string name="term">Agree with Term and Condition</string>
+
+    /* page almost */
+
+    <string name="almost">Almost There</string>
+    <string name="thank">Thank you for registering with us.One more \n step,you need to check your email \n to active your account </string>
+    <string name="veri">Verify</string>
+    /* page verify*/
+
+    <string name="verify">Verify Your Account</string>
+    <string name="send">we have send verification code to your email</string>
+    <string name="enter">enter verification code here</string>
+    <string name="sent">Send</string>
+    <string name="resend">dosen`t get the code? <b>Resend</b></string>
+    /* page home */
+    <string name="propil">TODO</string>
+    <string name="menu">TODO</string>
+    <string name="notif">TODO</string>
+    <string name="nama">Aldi Muhammad Syafi </string>
+    <string name="blood2">Blood type : AB</string>
+    <string name="noblood1">75</string>
+    <string name="noblood2">100</string>
+    <string name="noblood3">330</string>
+    <string name="descblood1">BLOOD GIVE</string>
+    <string name="descblood2">BLOOD RECEIVED</string>
+    <string name="descblood3">THANKS</string>
+    <string name="icon1"><b>Search Donor</b> \n search donor near you</string>
+    <string name="icon2"><b>Blood Needed</b> \n 4 users need blood</string>
+    <string name="icon3"><b>Message</b> \n 5 new message</string>
+    <string name="icon4"><b>Donor History</b> \n5 Gives,2 Received</string>
+
+</resources>

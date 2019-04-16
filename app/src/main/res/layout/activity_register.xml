@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    android:orientation="vertical">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="@drawable/ic_header"
+            android:id="@+id/layout_2"
+            >
+     <ImageView
+         android:layout_width="50dp"
+         android:layout_height="70dp"
+         android:layout_marginStart="10dp"
+         android:layout_marginEnd="30dp"
+         android:paddingStart="0dp"
+         android:paddingEnd="20dp"
+         android:paddingBottom="15dp"
+         android:layout_gravity="start"
+         android:src="@drawable/ic_header_back"
+         android:contentDescription="@string/header_login" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:paddingTop="17dp"
+            android:text="@string/register"
+            android:textColor="#ffff"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="vertical">
+        <EditText
+         android:layout_gravity="center"
+         android:layout_width="350dp"
+         android:layout_height="38dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+         android:layout_marginTop="20dp"
+         android:hint="@string/username"
+            android:inputType=""
+            android:autofillHints="" tools:targetApi="o" />
+
+        <EditText
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="@string/password"
+            android:inputType=""
+            android:autofillHints="" tools:targetApi="o" />
+
+        <EditText
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="@string/no_hp"
+            android:autofillHints=""
+            android:inputType="" tools:targetApi="o" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/laki" />
+
+        <RadioButton
+            android:gravity="center"
+            android:id="@+id/radioButton2"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="90dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/cewe" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"
+            android:drawableEnd="@drawable/ic_register_dropdown"
+            android:text="@string/blood" />
+        
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:paddingStart="0dp"
+            android:paddingEnd="10dp"
+            android:layout_marginEnd="15dp"
+            android:drawableEnd="@drawable/ic_register_dropdown"
+            android:text="@string/Resus" />
+
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"
+            android:hint="@string/password"
+            />
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"
+            android:hint="@string/repassword"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/person" />
+
+        <RadioButton
+            android:gravity="center"
+            android:id="@+id/radioButton4"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="50dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/organ" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="vertical" >
+    <EditText
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:layout_width="350dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/job"
+        android:drawableEnd="@drawable/ic_register_dropdown"
+        android:inputType=""
+        android:autofillHints="" tools:targetApi="o" />
+
+        <EditText
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="38dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+        android:layout_marginTop="0dp"
+        android:hint="@string/home"
+        android:inputType=""
+        android:autofillHints="" tools:targetApi="o" />
+
+        <EditText
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="38dp"
+            android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="@string/lokasi"
+            android:drawableEnd="@drawable/ic_blood_needed_location"
+        android:inputType=""
+        android:autofillHints="" tools:targetApi="o" />
+</LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+    <TextView
+
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:paddingTop="17dp"
+        android:paddingBottom="0dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="0dp"
+        android:layout_gravity="center"
+        android:textColor="#8c8c8c"
+        android:drawableStart="@drawable/ic_register_terms_on"
+        android:drawablePadding="10dp"
+        android:text="@string/term"
+        />
+    <Button
+        android:id="@+id/button_register"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:textColor="#40B4E7"
+        android:text="@string/register"
+        android:background="@drawable/button_style2"/>
+  </LinearLayout>
+    
+</LinearLayout>
